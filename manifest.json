@@ -1,0 +1,23 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "58.0a1",
+      "id": "stanbfrankie@gmail.com"
+    }
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Museum Helper",
+    "default_popup": "museum.html"
+  },
+  "description": "Displays Exchange Values for Flower/Plushie sets in the Museum",
+  "homepage_url": "https://www.torn.com",
+  "manifest_version": 2,
+  "name": "Museum Helper",
+  "permissions": [
+    "https://api.torn.com/*",
+    "tabs",
+    "storage"
+  ],
+  "version": "1.0"
+}
