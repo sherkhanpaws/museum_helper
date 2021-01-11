@@ -1,5 +1,5 @@
 var plushie_value=0;
-var api_key = "StfK2QkPRLrc017M";
+var api_key = "key";
 function get_bcost(data) {
 let raw = JSON.parse(data);
 return raw.bazaar[0].cost;
